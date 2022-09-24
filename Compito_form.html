@@ -1,0 +1,52 @@
+<html>
+  <body>
+    
+    <form>
+      <h1>REGIONE LIGURIA - ASSESSORATO AL TURISMO</h1> 
+      <h2>INSERIMENTO NUOVA STRUTTURA RICETTIVA</h2>
+      
+      <fieldset><legend align = "center">DATI STRUTTURA TURISTICA</legend>
+
+      Tipo struttura: <select>
+        <option></option>
+        <option>Albergo</option>
+        <option>Bed & Breakfast</option>
+        <option>Casa Vacanze</option>
+        <option>Appartamento</option>
+      </select>
+      Nome Struttura *: <input type = "text" placeholder = "inserisci nome struttura"/> <br><br><br><br><br><br>
+      Nome Titolare *: <input type = "text" placeholder = "inserisci nome titolare"/> <br><br><br>
+      Cognome Titolare *: <input type = "text" placeholder = "inserisci cognome titolare"/> <br><br><br>
+      e-mail *: <input type = "mail"/>
+      <P>i dati contrassegnati da * sono obbligatori<br>inserire una mail corretta
+      (contente carattere @)</P>
+			
+      </fieldset>
+			
+			<fieldset><legend align = "center">SEDE ED ATTREZZATURE TURISTICHE</legend>
+			Indirizzo: <input type = "text"/> 
+			Comune: <input type = "text"/> <br><br>
+			Provincia:
+				<input type = "RADIO" name="rbProv" value="rb_Gen" /> Genova 
+				<input type = "RADIO" name="rbProv" value="rb9_Imp" /> Imperia 
+				<input type = "RADIO" name="rbProv" value="rb12_LaS" /> La Spezia 
+				<input type = "RADIO" name="rbProv" value="rb14_Sav" /> Savona <BR> <br>
+			Numero posti (capienza): <input type= "number"> <br> <br>
+			Attrezzature: 
+				<input type = "checkbox" /> Biciclette
+				<input type = "checkbox" /> Piscina
+				<input type = "checkbox" /> Ristorante
+				<input type = "checkbox" /> Spiaggia
+			
+			</fieldset>
+			
+			Annotazioni:<br> <Textarea name= "areaAnnota"> </textarea> <br> <br>
+			<input type = "checkbox" /> Acconsento al trattamento dei dati sulla privacy <BR>
+			<input type="reset" value="Pulisci">
+      <input type="submit" value="Salva">
+		
+
+    </form>
+
+  </body>
+</html>
